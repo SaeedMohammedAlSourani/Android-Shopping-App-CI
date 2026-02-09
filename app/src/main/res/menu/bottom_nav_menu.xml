@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/outline_add_home_24"
+        android:title="الرئيسية" />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/outline_add_call_24"
+        android:title="اضافة" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/outline_blind_24"
+        android:title="بروفايل" />
+</menu>
