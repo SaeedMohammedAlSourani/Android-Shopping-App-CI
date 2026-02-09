@@ -34,8 +34,8 @@ unit-tests:
         distribution: 'temurin'
         java-version: '17'
 
-    # أضف هذا السطر هنا لحل مشكلة Exit Code 126
-    - name: Grant execute permission
+    # هذا هو السطر السحري اللي رح يحل مشكلة الـ Exit Code 126
+    - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
     - name: Run unit tests
